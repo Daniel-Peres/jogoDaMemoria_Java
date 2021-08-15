@@ -6,3 +6,8 @@ https://github.com/Daniel-Peres/jogo_da_memoria_java.git
 git config --list
 git config --global user.name "Daniel-Peres"
 git config --global user.email "dsperes@gmail.com"
+
+
+git config --global credential.helper wincred
+
+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
