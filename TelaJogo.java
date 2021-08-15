@@ -138,8 +138,8 @@ public class TelaJogo extends JFrame implements ActionListener{
      */
     private void mostrarResumoJogo(){
  
-        resumoJogo = "Jogador: " + objJogadorJogada.obterNome() + "nn" +
-        "Pontos: " + objJogadorJogada.obterPontos() + "nn" +
+        resumoJogo = "Jogador: " + objJogadorJogada.obterNome() + "\n" +
+        "Pontos: " + objJogadorJogada.obterPontos() + "\n" +
         "Quantidade de tentativas: " + qtdeTentativas;
  
         JOptionPane.showMessageDialog( null, ""+resumoJogo, "Resumo do Jogo",
