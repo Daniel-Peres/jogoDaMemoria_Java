@@ -10,4 +10,9 @@ git config --global user.email "dsperes@gmail.com"
 
 git config --global credential.helper wincred
 
-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
+
+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
+
+Menu Iniciar → Gerenciador de Credenciais → credenciais do Windows → 
+     encontrar a linha (Git: https: // Whatever / seu repositório / url) → editar 
+      nome de usuário é "PersonalAccessToken" e senha é o seu token de acesso.
