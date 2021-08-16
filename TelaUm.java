@@ -54,7 +54,7 @@ public class TelaUm extends JFrame implements ActionListener, ItemListener {
 
         );
 
-        nivelDificuldade = new JLabel("Nível de dificuldade: DIFÍCIL");
+        nivelDificuldade = new JLabel("Nivel de dificuldade: DIFICIL");
         nivelDificuldade.setForeground(Color.red);
 
         // gerenciadores de layout
@@ -139,30 +139,30 @@ public class TelaUm extends JFrame implements ActionListener, ItemListener {
         // painelCentro.add( som );
         painelCentro.add(nivelDificuldade);
 
-        menuDificuldade = new JMenu("Nível de Dificuldade");
+        menuDificuldade = new JMenu("Nivel de Dificuldade");
         menuDificuldade.setBackground(Color.lightGray);
 
         dificuldadeGroup = new ButtonGroup();
 
-        dificil = new JRadioButtonMenuItem("Difícil (6X6)");
+        dificil = new JRadioButtonMenuItem("Dificil (6X6)");
         dificil.setSelected(true);
 
         dificil.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent evt) {
                 jogoFacil = false;
-                nivelDificuldade.setText("Nível de dificuldade: DIFÍCIL");
+                nivelDificuldade.setText("Nivel de dificuldade: DIFICIL");
                 nivelDificuldade.setForeground(Color.red);
             }
         });
 
-        facil = new JRadioButtonMenuItem("Fácil (4X4)");
+        facil = new JRadioButtonMenuItem("Facil (4X4)");
 
         facil.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent evt) {
                 jogoFacil = true;
-                nivelDificuldade.setText("Nível de dificuldade: FÁCIL");
+                nivelDificuldade.setText("Nivel de dificuldade: FACIL");
                 nivelDificuldade.setForeground(Color.blue);
             }
         });
@@ -219,8 +219,8 @@ public class TelaUm extends JFrame implements ActionListener, ItemListener {
 
         telaSaida.setText(
 
-                "Jogo da Memória - 2005nn" + "Desenvolvido por: Luiz Gustavo Stábile de Souzan\n"
-                        + "Graduando em Análise de Sistemas pela Faculdade de Ciências e Tecnologia de Birigui\n"
+                "Jogo da Memoria - 2005nn" + "Desenvolvido por: Luiz Gustavo Stabile de Souzan\n"
+                        + "Graduando em Analise de Sistemas pela Faculdade de Ciências e Tecnologia de Birigui\n"
                         + "Contato: luizgustavoss@gmail.com\n"
                         + "Linguagem de Desenvolvimento: Java (TM) 2 Standard Edition\n"
                         + "Requisitos: J2RE - Java(TM) 2 Runtime Environment\n"

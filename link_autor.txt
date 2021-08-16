@@ -1,16 +1,1 @@
 https://luizgustavoss.wordpress.com/2009/01/15/jogo-da-memoria-em-java/
-
-https://github.com/Daniel-Peres/jogo_da_memoria_java.git
-
-
-git config --list
-git config --global user.name "Daniel-Peres"
-git config --global user.email "dsperes@gmail.com"
-
-
-git config --global credential.helper wincred
-
-
-Menu Iniciar → Gerenciador de Credenciais → credenciais do Windows → 
-     encontrar a linha (Git: https: // Whatever / seu repositório / url) → editar 
-      nome de usuário é "PersonalAccessToken" e senha é o seu token de acesso.
